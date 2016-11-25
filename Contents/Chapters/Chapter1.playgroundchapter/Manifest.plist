@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Version</key>
+	<string>1.0</string>
+	<key>Name</key>
+	<string>SpriteKit Introduction</string>
+	<key>Pages</key>
+	<array>
+		<string>Introduction.playgroundpage</string>
+		<string>Add a Sprite.playgroundpage</string>
+		<string>Touch Location.playgroundpage</string>
+		<string>Gliding.playgroundpage</string>
+		<string>Sequence Actions.playgroundpage</string>
+		<string>Drag &amp; Drop.playgroundpage</string>
+		<string>Following Touch.playgroundpage</string>
+		<string>Stop Touch.playgroundpage</string>
+		<string>Gravity.playgroundpage</string>
+		<string>Add a Platform.playgroundpage</string>
+	</array>
+</dict>
+</plist>
