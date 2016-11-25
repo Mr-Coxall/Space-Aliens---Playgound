@@ -7,11 +7,11 @@
 	<key>ContentVersion</key>
 	<string>1.0</string>
 	<key>Name</key>
-	<string>Sprite Invaders</string>
+	<string>Space Aliens</string>
 	<key>Description</key>
-	<string>Start learning about SpriteKit with these interactive lessons.</string>
+	<string>Start learning about SpriteKit while making a Space Alien shooter game.</string>
 	<key>ContentIdentifier</key>
-	<string>com.danielbudd.SpriteInvader</string>
+	<string>ca.mths.Mr.Coxall.SpaceAleins</string>
 	<key>DeploymentTarget</key>
 	<string>ios10.0</string>
 	<key>ImageReference</key>
