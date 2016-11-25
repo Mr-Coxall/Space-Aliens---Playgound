@@ -15,7 +15,7 @@
 	<key>DeploymentTarget</key>
 	<string>ios10.0</string>
 	<key>ImageReference</key>
-	<string>cover.png</string>
+	<string>playground_cover_image.png</string>
 	<key>Chapters</key>
 	<array>
 		<string>Chapter1.playgroundchapter</string>
