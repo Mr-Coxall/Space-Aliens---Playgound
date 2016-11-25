@@ -31,3 +31,17 @@ class GameScene: SKScene {
         
     }
 }
+
+// this will be commented out when code moved to Xcode
+let frame = CGRect(x: 0, y: 0, width: 1024, height: 768)
+
+//let scene = GameScene()
+let scene = GameScene(size: frame.size)
+scene.scaleMode = SKSceneScaleMode.resizeFill
+
+let skView = SKView(frame: frame)
+skView.showsFPS = true
+skView.showsNodeCount = true
+skView.presentScene(scene)
+
+PlaygroundPage.current.liveView = skView
