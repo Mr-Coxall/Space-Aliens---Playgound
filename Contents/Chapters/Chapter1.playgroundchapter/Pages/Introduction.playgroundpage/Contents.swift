@@ -69,7 +69,7 @@ class GameScene: SKScene {
         fireButton.setScale(0.75)
     }
     
-    override func  update(_ currentTime: TimeInterval) {
+    override func update(_ currentTime: TimeInterval) {
         //
         
         if rightButtonPressed == true {
@@ -157,6 +157,8 @@ class GameScene: SKScene {
                 let fireMissile = SKAction.moveTo(y: 1000, duration: 2.0)
                 aMissile.run(fireMissile)
                 missiles.append(aMissile)
+                // now make the sound happen
+                aMissile.run(SKAction.playSoundFileNamed("laser1.wav", waitForCompletion: false))
             }
         }
     }
